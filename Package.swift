@@ -22,10 +22,14 @@ let package = Package(
                 .linkedLibrary("resolv"),
             ]
         ),
+//        .binaryTarget(
+//            name: "YandexMapsMobile",
+//            path: "YandexMapsMobile.xcframework"
+//        )
         .binaryTarget(
             name: "YandexMapsMobile",
-            url: "https://github.com/naithar/YandexMapsMobile-SPM/releases/download/4.1.0/YandexMapsMobile.xcframework.zip",
-            checksum: "ec932042e44c01d28ce432f80d895ea62e5fa8ec939f9048642df15218e07c32"
+            url: "https://github.com/naithar/YandexMapsMobile-SPM/releases/download/4.3.1/YandexMapsMobile.xcframework.zip",
+            checksum: "592df4b1a6519b17d3c477497616cb300d3bedcc13cc34dc9e9d3ce11aa7ba25"
         ),
     ]
 )

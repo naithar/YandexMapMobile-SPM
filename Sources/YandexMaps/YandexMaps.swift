@@ -7,6 +7,7 @@
 
 @_exported import CoreAudioTypes
 @_exported import CoreMotion
+@_exported import DeviceCheck
 @_exported import YandexMapsMobile
 
 enum YandexMaps { }
